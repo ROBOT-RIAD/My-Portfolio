@@ -1,0 +1,49 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+
+.open-sans {
+  font-family: "Open Sans", system-ui;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 45px;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.text-primary{
+    color: #fd6e0a;
+
+}
+
+.btn-primary{
+    border-radius: 5px;
+    background:#fd6e0a;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+
+}
+
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #474747;
+}
